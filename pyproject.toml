@@ -12,6 +12,9 @@ dependencies = [
     "pydantic>=2.14.3",
     "sqlalchemy>=2.1.8",
     "uvicorn>=0.54.0",
+    "pyjwt>=2.8.0",
+    "passlib[bcrypt]>=1.7.4",
+    "bcrypt<4.1",
 ]
 
 [project.scripts]
